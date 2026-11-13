@@ -9,7 +9,7 @@ start:
     mov ds, ax
     mov es, ax
     mov si, msg
-    mov ah. 0x0E
+    mov ah, 0x0E
 
 print_loop:
     lodsb
